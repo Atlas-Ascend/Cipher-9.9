@@ -1,0 +1,25 @@
+schema: ghost-atlas.hypernet.node/v1
+node_id: cipher-9-9
+repository: Atlas-Ascend/Cipher-9.9
+lifecycle: seed
+plane: cognition
+canonical_role: symbolic-cognition-and-meaning-field-translation
+parent: Atlas-Mind-LLM
+contains:
+  - RHSIE-3.3
+authority:
+  owns:
+    - symbolic-interpretation
+    - cross-domain-meaning-translation
+    - interpretive-synthesis
+  does_not_own:
+    - executive-authorization
+    - task-execution
+    - finish-truth
+upstream:
+  - MythOS
+  - Thoth
+  - Atlas-Omega
+downstream:
+  - Atlas-Mind-LLM
+proof_gate: SECA
